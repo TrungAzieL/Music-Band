@@ -1,0 +1,136 @@
+/* PC */
+@media (min-width: 64em) {
+    
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #nav .subnav a {
+        padding: 0.3125em 0.75em;
+    }
+    
+    .contact-info {
+        line-height: 1.9;
+    }
+}
+
+/* Tablet & Mobile */ 
+@media (max-width: 63.9375em) {
+    #content .buy-ticket  {
+        padding: 0.9375em 1em;
+    }
+    .contact-form .form-control {
+        padding: 0.9375em;
+    }
+    #footer .social-list {
+        font-size: 1.5em;
+        
+    }
+    #footer .social-list a {
+        margin: 0 0.1em;
+    }
+    #footer .copyright {
+        font-size: 1.3em;
+    }
+    #footer .copyright a {
+        padding: 0.5em 0;
+        display: inline-block;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .s-mt-8 {
+        margin-top: 0.5em !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+    
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 0.3125em 2.5625em;
+    }
+
+    #nav li a {
+        padding: 0.3125em 1.5em;
+    }
+
+    #nav > li {
+        display: block;
+    } 
+
+    #slider .text-content {
+        bottom: 0.625em;
+    }
+
+    #slider .text-heading {
+        font-size: 0.9375em;
+    }
+
+    #slider .text-description {
+        font-size: 0.625em;
+        margin-top: 0.3125em;
+    }
+
+    #content .member-list {
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+
+    #content .member-item {
+        margin-top: 2.2em;
+    }
+
+    #content .tour-list {
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+
+    #content .tour-info {
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    .contact-info {
+        width: 100%;
+        line-height: 2;
+    }
+
+
+    .contact-form {
+        padding-top: 1em;
+        width: 100%;
+    }
+
+    .mobile-contact-col {
+        width: 100% !important;
+    }
+
+    .mobile-full-btn {
+        width: 100% !important;
+        text-align: center;
+    }
+}  
